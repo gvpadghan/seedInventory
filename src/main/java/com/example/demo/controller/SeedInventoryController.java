@@ -39,7 +39,7 @@ public class SeedInventoryController {
 		logger.info("SeedInventoryController :::: with payload: {}", seed);
 		try {
 			
-			System.out.println("hello gvp");
+			System.out.println("hello ganesh !");
 
 			SeedInventory created = seedInventoryService.saveSeed(seed);
 			logger.info("Seed created successfully with ID: {}", created.getId());
