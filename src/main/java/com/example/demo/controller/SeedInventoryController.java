@@ -41,7 +41,7 @@ public class SeedInventoryController {
 			
 			System.out.println("hello ganesh !");
 			System.out.println("hello ganesh !");
-			System.out.println("hello ganesh   !");
+			System.out.println("hello World!");
 
 			SeedInventory created = seedInventoryService.saveSeed(seed);
 			logger.info("Seed created successfully with ID: {}", created.getId());
